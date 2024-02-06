@@ -20,12 +20,40 @@ const Videos=[{
        channelName:"Think School",
        views:"3M",
        timestamps:"10 hours ago"
+},{
+    thumbnail:"https://i.ytimg.com/vi/7JXkKVA5RAA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAXviFVE1V61Njd80U2GO0biUSkiA",
+       channelImg:"channels4_profile.jpg",
+       title:"Paytm gonna survive? RBI VS PAYTM",
+       channelName:"Think School",
+       views:"3M",
+       timestamps:"10 hours ago"
+},{
+    thumbnail:"https://i.ytimg.com/vi/7JXkKVA5RAA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAXviFVE1V61Njd80U2GO0biUSkiA",
+       channelImg:"channels4_profile.jpg",
+       title:"Paytm gonna survive? RBI VS PAYTM",
+       channelName:"Think School",
+       views:"3M",
+       timestamps:"10 hours ago"
+},{
+    thumbnail:"https://i.ytimg.com/vi/7JXkKVA5RAA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAXviFVE1V61Njd80U2GO0biUSkiA",
+       channelImg:"channels4_profile.jpg",
+       title:"Paytm gonna survive? RBI VS PAYTM",
+       channelName:"Think School",
+       views:"3M",
+       timestamps:"10 hours ago"
+},{
+    thumbnail:"https://i.ytimg.com/vi/7JXkKVA5RAA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAXviFVE1V61Njd80U2GO0biUSkiA",
+       channelImg:"channels4_profile.jpg",
+       title:"Paytm gonna survive? RBI VS PAYTM",
+       channelName:"Think School",
+       views:"3M",
+       timestamps:"10 hours ago"
 }]
 
 export const  VideoGrid=()=>{
 
 return (
-    <div className="grid grid-4">
+    <div className="grid grid-cols-4">
         {Videos.map(video =>  <div>
             <VideoCaard
        thumbnail= {video.thumbnail}
